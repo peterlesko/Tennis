@@ -1,6 +1,5 @@
 package com.plesk;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -99,8 +98,8 @@ public class TennisTest {
     @DisplayName("Advantage score")
     class AdvantageScore {
 
-            @Test
-            void testTennis_3_4_deuce () {
+        @Test
+        void testTennis_3_4_deuce () {
             String expected = "player1: advantage";
             int player1 = 4;
             int player2 = 3;
